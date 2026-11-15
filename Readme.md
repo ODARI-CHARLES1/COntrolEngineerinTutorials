@@ -61,9 +61,9 @@ jupyter lab
 ### Python Imports
 
 ```python
-import numpy as np
+iimport numpy as np
 import matplotlib.pyplot as plt
-from scipy import signal
+from control import matlab as mt
 ```
 
 ### Topics Covered
