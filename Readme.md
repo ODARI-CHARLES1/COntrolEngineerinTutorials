@@ -1,28 +1,86 @@
+ 
 
 # CONTROL ENGINEERING I
 
-# TIME RESPONSE ANALYSIS USING PYTHON
+## Time Response Analysis Using Python
 
-## Practical Tutorial: Obtaining and Plotting the Time Response of a Control System
+### Overview
+
+This practical explores the time-domain response of control systems using Python. It covers impulse, step and ramp responses, numerical simulation, plotting and performance analysis.
 
 ### Learning Objectives
 
-By the end of this practical session, you should be able to:
+- Understand time response.
+- Define transfer functions.
+- Simulate impulse, step and ramp responses.
+- Plot and interpret response curves.
+- Determine time-domain performance specifications.
 
-1. Understand the meaning of time response in control systems.
-2. Relate transfer functions to time-domain responses.
-3. Understand standard test input signals.
-4. Obtain time responses mathematically using inverse Laplace transforms.
-5. Define transfer functions using Python.
-6. Simulate impulse, step and ramp responses.
-7. Extract numerical time-response data.
-8. Plot and interpret the resulting response curves.
-9. Understand important time-domain performance specifications.
-
-### Software Requirements
+### Requirements
 
 - Python 3
 - NumPy
 - SciPy
 - Matplotlib
 - Jupyter Notebook
+
+### Environment Setup
+
+**1. Create virtual environment**
+
+```bash
+python3 -m venv control.venv
+```
+
+**2. Activate environment**
+
+Linux:
+
+```bash
+source control.venv/bin/activate
+```
+
+Windows:
+
+```bash
+control.venv\Scripts\activate.bat
+```
+
+**3. Install dependencies**
+
+```bash
+pip install numpy scipy matplotlib jupyter lab
+```
+
+**4. Launch Jupyter**
+
+```bash
+jupyter lab
+```
+
+### Python Imports
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy import signal
+```
+
+### Topics Covered
+
+1. Transfer functions.
+2. Standard test signals.
+3. First-order systems.
+4. Second-order systems.
+5. Impulse response.
+6. Step response.
+7. Ramp response.
+8. Time-domain specifications.
+
+### Practical Instructions
+
+Run the notebook cells sequentially, observe the plots and analyse the resulting system responses.
+
+### Author
+
+Control Engineering I – Practical Laboratory
