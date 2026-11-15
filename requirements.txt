@@ -2,3 +2,4 @@ numpy
 matplotlib 
 control
 jupyter lab
+scipy
